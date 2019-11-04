@@ -1,5 +1,8 @@
 # [Palette Picker](https://em-ja-palette-picker.herokuapp.com/)
 
+[![Build Status](https://travis-ci.org/criteriamor/Palette-Picker-Api.svg?branch=master)](https://travis-ci.org/criteriamor/Palette-Picker-Api) 
+[![Heroku](https://heroku-badge.herokuapp.com/?app=em-ja-palette-picker)](https://em-ja-palette-picker.herokuapp.com/)
+
 Palette Picker is a semi random, color palette generating, web application. It was built by [Edgar Munoz](https://github.com/criteriamor) and I over the course of 9 days during the 4th quarter of Turing School of Software & Design.
 
 [More information about original assignment can be found here](http://frontend.turing.io/projects/palette-picker.html)
