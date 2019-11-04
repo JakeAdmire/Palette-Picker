@@ -13,7 +13,7 @@ Palette Picker is a semi random, color palette generating, web application. It w
 
 Throughout this project I maintained the usual goals of performing in an Agile environment while utilizing continuous integration testing.
 
-Additionally, I focussed on maintaining strong and open communication with my project partner with paired programming and code review.
+Additionally, I focussed on maintaining strong and open communication with my project partner through paired programming and code review.
 
 #### Technical Goals:
 - Server-side testing using  `supertest`
