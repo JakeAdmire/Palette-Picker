@@ -9,6 +9,18 @@ Palette Picker is a semi random, color palette generating, web application. It w
 
 [Link to Back End repository here](https://github.com/JakeAdmire/Palette-Picker_API)
 
+## README Directory
+
+- [Project Goals](https://github.com/JakeAdmire/Palette-Picker#what-were-my-goals-for-this-project)
+  - [Technical Goals](https://github.com/JakeAdmire/Palette-Picker#technical-goals)
+- [Screenshots](https://github.com/JakeAdmire/Palette-Picker#screenshots--explanation)
+- [Installation Guide](https://github.com/JakeAdmire/Palette-Picker#getting-started-w-installation)
+  - [Front End Instructions](https://github.com/JakeAdmire/Palette-Picker#front-end-instructions)
+  - [Back End Instructions](https://github.com/JakeAdmire/Palette-Picker#backend-instructions)
+- [Future Iterations](https://github.com/JakeAdmire/Palette-Picker#future-development-notes)
+- [Dependencies](https://github.com/JakeAdmire/Palette-Picker#dependencies)
+- [Credits](https://github.com/JakeAdmire/Palette-Picker#credits)
+
 ## What were my goals for this project?
 
 Throughout this project I maintained the usual goals of performing in an Agile environment while utilizing continuous integration testing.
@@ -70,6 +82,8 @@ launch in your terminal: ```$ npm start ```
 Palette Picker was built using: 
 - [React](https://reactjs.org/)
 - [Redux](https://react-redux.js.org/)
+- [Node.js](https://nodejs.org/en/)
+- [Express.js](https://expressjs.com/)
 - [SCSS](https://sass-lang.com/)
 
 And tested using:
