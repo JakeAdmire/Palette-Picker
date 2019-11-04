@@ -84,4 +84,4 @@ This project was assigned by David Whitaker and Will Mitchell
 *@ Turing School of Software & Design in Denver, CO.*
 
 ---
-**[Back to top](https://github.com/JakeAdmire/JA--RottenPotatoes/blob/master/README.md#palette-picker)**
+**[Back to top](https://github.com/JakeAdmire/Palette-Picker#palette-picker)**
