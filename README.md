@@ -1,104 +1,128 @@
-# [Palette Picker](https://em-ja-palette-picker.herokuapp.com/)
+###### Top
 
-[![Build Status](https://travis-ci.org/criteriamor/Palette-Picker-Api.svg?branch=master)](https://travis-ci.org/criteriamor/Palette-Picker-Api) 
-[![Heroku](https://heroku-badge.herokuapp.com/?app=em-ja-palette-picker)](https://em-ja-palette-picker.herokuapp.com/)
+<br />
+<p align="center">
+  <h1 align="center">Palette 🎨 Picker</h1>
+  <p align="center">
+    Generate beautiful color palettes on the fly!
+    <br />
+    <br />
+    <b><a href="https://em-ja-palette-picker.herokuapp.com/">View Demo</a></b>
+  </p>
+</p>
+<div align="center">
 
-Palette Picker is a semi random, color palette generating, web application. It was built by [Edgar Munoz](https://github.com/criteriamor) and I over the course of 9 days during the 4th quarter of Turing School of Software & Design.
+[![Travis][travis-shield]][travis-url] [![Heroku][heroku-shield]][heroku-url] 
+[![LinkedIn][linkedin-shield]][linkedin-url] [![Gmail][gmail-shield]][gmail-url] [![GitHub][github-shield]][github-url] 
+</div>
 
-[More information about original assignment can be found here](http://frontend.turing.io/projects/palette-picker.html)
+## Table of Contents
 
-[Link to Back End repository here](https://github.com/JakeAdmire/Palette-Picker_API)
+- [About The Project](#About-The-Project)
+  - [Media](#Media)
+  - [Built With](#Built-With)
+    - [Acknowledgements](#Acknowledgements)
+- [Getting Started](#Getting-Started)
+  - [Prerequisites](#Prerequisites)
+  - [Installation](#Installation)
+    - [Front End](#Installation)
+    - [Back End](#API-Installation-Instructions)
+- [Contributors](#Contributors)
+- [Assignment Details](#Assignment-Details)
 
-## README Directory
+## About The Project
 
-- [Project Goals](https://github.com/JakeAdmire/Palette-Picker#what-were-my-goals-for-this-project)
-  - [Technical Goals](https://github.com/JakeAdmire/Palette-Picker#technical-goals)
-- [Screenshots](https://github.com/JakeAdmire/Palette-Picker#screenshots--explanation)
-- [Installation Guide](https://github.com/JakeAdmire/Palette-Picker#getting-started-w-installation)
-  - [Front End Instructions](https://github.com/JakeAdmire/Palette-Picker#front-end-instructions)
-  - [Back End Instructions](https://github.com/JakeAdmire/Palette-Picker#backend-instructions)
-- [Future Iterations](https://github.com/JakeAdmire/Palette-Picker#future-development-notes)
-- [Dependencies](https://github.com/JakeAdmire/Palette-Picker#dependencies)
-- [Credits](https://github.com/JakeAdmire/Palette-Picker#credits)
-
-## What were my goals for this project?
-
-Throughout this project I maintained the usual goals of performing in an Agile environment while utilizing continuous integration testing.
-
-Additionally, I focussed on maintaining strong and open communication with my project partner through paired programming and code review.
-
-#### Technical Goals:
-- Server-side testing using  `supertest`
-- Furthering the understanding of CRUD endpoints
-- Using CORS to connect the front and back end
-- Using multiple environments (i.e. development, testing, CI, and production)
-
-## Screenshots & Explanation:
-
-<img width="1487" alt="palette picker full page screenshot" src="https://user-images.githubusercontent.com/44077214/68129305-8b989580-fed6-11e9-9817-3901401c684c.png">
-
-This is an example of the Palette Picker application displaying a randomly generated palette. On each swatch you can see the displayed name, hex code, and a locked status indicator.
-
->Notice how the lightness value of the swatch information changes dependent of the color its sitting atop. This is to provide better visibility regardless of the displayed color
-
----
-<img width="1487" alt="Screen Shot 2019-11-04 at 7 40 01 AM" src="https://user-images.githubusercontent.com/44077214/68129304-8b989580-fed6-11e9-95b3-c4ce25603acb.png">
-
-When you click dropdown arrow a menu slides in to provide you with options to title and save the current palette, as well as open and edit palettes you'd previously saved.
+🎨 **Palette Picker** dynamically generates beautiful color palettes! Now featuring the ability to save and customize named palettes!
 
 ---
 
-<img width="1487" alt="Screen Shot 2019-11-04 at 7 40 16 AM" src="https://user-images.githubusercontent.com/44077214/68129303-8affff00-fed6-11e9-9c31-e0c5d2ec3508.png">
+### Media:
 
-If the application provides a palette that you only partially enjoy, you can lock the swatches that you favor and regenerate the rest. Palette Picker's generation logic will ensure that the newly generated colors still fit in with the theme of the palette.
+![enter image description here](https://user-images.githubusercontent.com/44077214/71425735-b7760300-265d-11ea-80e9-c277e703344b.png)
 
-## Getting Started w/ Installation:
+### Built With:
+- HTML5
+- SCSS 
+- JavaScript
+- ReactJS
+- Jest & Enzyme
+- Knex & Postgres
+- ExpressJS
 
-These instructions will get a copy of the project up and running on your local machine for usage and testing purposes.
+#### Acknowledgements:
+- Redux
+- Redux Thunk
 
-### Front End instructions
-clone down the repo: `$ git clone https://github.com/JakeAdmire/Palette-Picker`
+## Getting Started
 
-cd into directory and `$ npm install`
+To get a local copy up and running follow these simple steps:
 
-launch in your browser: `$ npm start`
+---
 
-### BackEnd instructions
-clone down the repo: ```$ git clone https://github.com/JakeAdmire/Palette-Picker_API```
+### Prerequisites
 
-cd into directory and ```$ npm install```
+* npm
+```sh
+npm install npm@latest -g
+```
 
-launch in your terminal: ```$ npm start ```
+---
 
-## Future Development Notes
-- First off I plan to implement a responsive design in place of the current one. I believe in this modern day that there's no longer an excuse for a website that isn't both mobile and desktop friendly.
+### Installation
 
-- I'd like to replace the current single user system with some kind of authentication, perhaps OAuth.
+1. Clone the repo
+```sh
+git clone https://github.com/JakeAdmire/Palette-Picker
+```
+2. Install NPM packages
+```sh
+cd Palette-Picker && npm install
+```
+---
+#### API Installation Instructions
 
-- Finally, I'd like to replace the current square representing swatch locked status with a true lock icon to improve UI
+1. Clone the repo
+```sh
+git clone https://github.com/JakeAdmire/Palette-Picker-API
+```
+2. Install NPM packages
+```sh
+cd Palette-Picker-API && npm install
+```
 
-## Dependencies
+## Contributors
 
-Palette Picker was built using: 
-- [React](https://reactjs.org/)
-- [Redux](https://react-redux.js.org/)
-- [Node.js](https://nodejs.org/en/)
-- [Express.js](https://expressjs.com/)
-- [SCSS](https://sass-lang.com/)
+Click [here](https://github.com/JakeAdmire/Palette-Picker/graphs/contributors) to view a graph of the contributions to this project.
 
-And tested using:
-- Front End: [Enzyme](https://airbnb.io/enzyme/) & [Jest](https://airbnb.io/enzyme/docs/guides/jest.html)
-- Back End: [Supertest](https://github.com/visionmedia/supertest)
-
-## Credits
-Credit for this project goes to: 
-- [Jake Admire](https://github.com/JakeAdmire)
+- [Jake Admire](https://github.com/jakeadmire)
 - [Edgar Munoz](https://github.com/criteriamor)
 
+## Assignment Details
+
+The intended assignment was to build a palette generation web app paired with an API built on PostgreSQL & Knex. 
+
 ---
+
 This project was assigned by David Whitaker and Will Mitchell
 
-*@ Turing School of Software & Design in Denver, CO.*
+_@ Turing School of Software & Design, Denver, CO._
 
 ---
-**[Back to top](https://github.com/JakeAdmire/Palette-Picker#palette-picker)**
+
+**[BACK TO TOP](#top)**
+
+<!-- URL References  -->
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-0077b5.svg?style=for-the-badge&logo=linkedin
+[linkedin-url]: https://linkedin.com/in/jakeadmire
+
+[gmail-shield]: https://img.shields.io/badge/-Email-red.svg?style=for-the-badge&logo=gmail&logoColor=white
+[gmail-url]: mailto:jakeadmire1@gmail.com
+
+[github-shield]: https://img.shields.io/badge/dynamic/json?label=Follow&query=length&url=https://api.github.com/users/jakeadmire/followers&style=for-the-badge&logo=github
+[github-url]: https://github.com/JakeAdmire/
+
+[travis-shield]: https://img.shields.io/travis/criteriamor/Palette-Picker-API?label=travis-ci&logo=travis&style=for-the-badge
+[travis-url]: https://em-ja-palette-picker.herokuapp.com/
+
+[heroku-shield]: https://img.shields.io/badge/heroku-deployed-lightblue?style=for-the-badge&logo=heroku
+[heroku-url]: https://em-ja-palette-picker.herokuapp.com/
